@@ -15,7 +15,7 @@ def client_side():
     ip_name = socket.gethostbyname(server_host)
     sport = 8080
 
-    server_host = "172.20.10.2"
+    server_host = "<Enter your IP>"
     name = ip_name
     socket_server.connect((server_host, sport))
 
